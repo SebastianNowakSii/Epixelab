@@ -151,7 +151,7 @@ header nav .log-in-sign-up a:hover {
   border-radius: 28px;
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
-.service .service-details figure svg {
+.service .service-details figure img {
   margin: 30.53px 0 41px 0;
 }
 .service .service-details figure .middle {
@@ -313,7 +313,7 @@ header nav .log-in-sign-up a:hover {
   padding: 0;
   font-family: "DM Sans", sans-serif;
 }
-.our-team .team-members figure img {
+.our-team .team-members figure .team-member {
   height: 120px;
   width: 120px;
   border-radius: 50px;
@@ -336,30 +336,25 @@ header nav .log-in-sign-up a:hover {
   color: rgba(21, 20, 57, 0.4);
 }
 .our-team .team-members figure menu {
+  box-sizing: border-box;
   width: inherit;
+  min-height: 59.5px;
   display: flex;
-  padding: 0;
+  justify-content: space-around;
+  align-items: stretch;
   margin: 0;
+  padding: 0;
   border-top: 2px solid #EBEAED;
 }
-.our-team .team-members figure menu :nth-child(2) {
-  border-right: 2px;
-  border-left: 2px;
-  border-top: 0;
-  border-bottom: 0;
-  border-style: solid;
-  border-color: #EBEAED;
-}
-.our-team .team-members figure menu li {
+.our-team .team-members figure menu a {
+  border-right: 2px solid #ebeaed;
+  flex-grow: 1;
   display: flex;
+  align-items: center;
   justify-content: center;
-  width: 33%;
 }
-.our-team .team-members figure menu li svg {
-  padding: 16.8px 30px 18px 30px;
-}
-.our-team .team-members figure menu li .twitter {
-  padding-bottom: 22px;
+.our-team .team-members figure menu :last-child {
+  border-right: none;
 }
 
 footer .copyrights {
