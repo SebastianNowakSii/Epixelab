@@ -57,7 +57,7 @@ header {
   margin: 0 0 21px 0;
   height: 49px;
 }
-header svg {
+header .logo {
   padding-right: 114px;
 }
 header nav {
